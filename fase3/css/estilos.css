@@ -1,0 +1,85 @@
+body {
+    font-family: arial, helvetica;
+    background: white;
+    padding: auto;
+    box-sizing: border-box;
+}
+header {
+    background: #99C4C8;
+}
+
+nav{
+    background: white;
+}  
+
+section{
+    background:#99C4C8;
+    grid-column: 1/4 ;
+}
+
+aside{
+background: #E5CB9F;
+grid-column: 4/5;
+}
+
+footer {
+    background: grey;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #838a94;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    height: 100%;
+}
+nav{
+    height: 100%;
+}
+nav > ul{
+    height: 100%;
+    display: flex;
+}
+.menu > ul > li{
+    height: 100%;
+    position: relative;
+}
+.menu > ul > li >a{
+width: 100%;
+height: 100%;
+align-items:center;
+padding: 14px;
+display: flex;
+font-size: 130%;
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,5);
+} 
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background: rgb(150, 125, 64);
+}
+.submenu ul >li > ul{
+width: 200px;
+display: flex;
+flex-direction: column;
+background: white;
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,5);
+}
+.submenu ul li:hover ul{
+    visibility: visible;
+    opacity: 2;
+    top: 70px;
+}  

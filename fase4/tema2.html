@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fase4-Universidad del Estado</title>
+</head>
+
+<body>
+  <header>
+    <img src="logo1.png" alt="">
+    <h1>
+      <center>Atributos y valores de HTML </center>
+    </h1>
+    <HR>
+    </HR>
+    <link rel="stylesheet" href="css/estilos.css">
+  </header>
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="#">Temas</a>
+        <ul class="submenu-vertical">
+          <li><a href="tema1.html">Etiquetas Básicas de HTML</a></li>
+          <li><a href="tema2.html">atributos y valores HTML</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Recursos Digitales</a>
+        <ul class="submenu">
+          <li><a href="recurso1.html">PDF y Podcast</a></li>
+          <li><a href="recurso2.html">Video</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Aprendizaje</a>
+        <ul class="submenu">
+          <li><a href="aprendizaje1.html">Aprendizaje 1</a></li>
+          <li><a href="aprendizaje2.html">Aprendizaje 2</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Acerca de</a>
+        <ul class="submenu">
+          <li><a href="autor.html">Autor</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <HR>
+  </HR>
+  <main>
+    <section>
+
+      <article>
+        <h3>
+          <center>¿QUÉ ES UN ATRIBUTO HTML?</center>
+        </h3>
+        <p>Un atributo HTML es un valor o propiedad que añades a una etiqueta HTML. Este
+          otorgará una propiedad o comportamiento específico a la propia etiqueta, por lo que es muy importante que los
+          conozcas todos.
+        </p>
+        <h3>
+          <center>CLASES DE ATRIBUTOS HTML</center>
+        </h3>
+        <p aling="justify">Existen diferentes tipos de atributos para las etiquetas. Algunos son de ámbito global,
+          mientras que otros son
+          más específicos y solo son válidos para algunas etiquetas HTML. En general podemos ordenarlos de la siguiente
+          manera:
+          <br>
+          Aunque cada una de las etiquetas HTML define sus propios atributos, encontramos algunos comunes a muchas o
+          casi
+          todas las etiquetas, que se dividen en cuatro grupos según su funcionalidad:
+          <br>
+          <br>
+          º Atributos básicos
+          <br>
+          º Atributos de internacionalización
+          <br>
+          º Atributos de eventos
+          <br>
+          º Atributos de foco
+          <br>
+          <br>
+          <hr>
+          <strong>ATRIBUTOS BÁSICOS</strong>
+          <br>
+          Los atributos básicos se utilizan en la mayoría de etiquetas HTML y XHTML, aunque adquieren mayor sentido
+          cuando
+          se utilizan hojas de estilo en cascada (CSS):
+          <br>
+          <br>
+          id="texto" Establece un indicador único a cada elemento
+          <br>
+          class="texto" Establece la clase CSS que se aplica a los estilos del elemento
+          <br>
+          style="texto" Aplica de forma directa los estilos CSS de un elemento
+          <br>
+          title="texto" Establece el título del elemento (Mejora la accesibilidad)
+          <br>
+          <br>
+          <hr>
+          <strong>ATRIBUTOS DE INTERNACIONALIZACIÓN O I18N</strong>
+          <br>
+          Estos atributos se utilizan en aquellas páginas que muestran sus contenidos en varios idiomas y las que
+          quieran
+          indicar de forma explícita el idioma de sus contenidos:
+          <br>
+          <br>
+          lang="codigo" Indica el idioma del elemento
+          <br>
+          xml:lang="codigo" Indica el idioma del elemento, aunque tiene más prioridad que el atributo anterior y es
+          obligatorio si se incluye el atributo lang
+          <br>
+          dir: Indica la dirección del texto
+          <br>
+          <br>
+          <hr>
+          <strong>ATRIBUTOS DE EVENTOS</strong>
+          <br>
+          Estos atributos se utilizan en las páginas web que incluyen código JavaScript para realizar acciones dinámicas
+          sobre los elementos de la página.
+          <br>
+          <br>
+          <strong>Pueden ser utilizados por: todos los elementos</strong>
+          <br>
+          <br>
+          onclick Ejecuta la acción cuando se realiza un clic sobre el elemento
+          <br>
+          ondblclick Ejecuta la acción cuando se realiza un doble clic sobre el elemento
+          <br>
+          onmousedown Ejecuta la acción cuando se detecta el botón pulsado del ratón
+          <br>
+          onmouseup Ejecuta la acción cuando se detecta que se ha soltado el botón del ratón
+          <br>
+          onmousemove Ejecuta la acción cuando se detecta el movimiento del ratón sobre el elemento
+          <br>
+          onmouseout Ejecuta la acción cuando el ratón abandona el elemento
+          <br>
+          onmouseover Ejecuta la acción cuando se detecta que el ratón se sitúa sobre el elemento
+          <br>
+          <br>
+          <strong>Pueden ser utilizados por: body</strong>
+          <br>
+          <br>
+          onload Ejecuta la acción cuando se carga el documento
+          <br>
+          onunload Ejecuta la acción cuando se abandona el documento
+          <br>
+          onresize Ejecuta la acción cuando se ha modificado el tamaño de la ventana del navegador
+          <br>
+          <br>
+          <strong>Pueden ser utilizados por: elementos de formulario y body</strong>
+          <br>
+          <br>
+          onkeydown Ejecuta la acción cuando se detecta que la tecla esta pulsada
+          <br>
+          onkeyup Ejecuta la acción cuando se detecta que se ha soltado la tecla pulsada
+          <br>
+          onkeypress Ejecuta la acción cuando se pulsa una tecla
+          <br>
+          <br>
+          <strong>Pueden ser utilizados por: varios</strong>
+          <br>
+          <br>
+          Elementos que pueden usarlo
+          <br>
+          onblur Ejecuta la acción cuando el elemento pierde el foco bien sea a través del ratón o por navegación
+          tabulada button, input, label, select, textarea, body
+          <br>
+          onfocus Ejecuta la acción cuando el elemento obtiene el foco bien sea a través del ratón o por navegación
+          tabulada
+          button, input, label, select, textarea, body
+          <br>
+          onchange Ejecuta la acción cuando el valor de un control ha sido modificado input, select, textarea
+          <br>
+          onreset Ejecuta la acción cuando el formulario es restablecido a sus valores por defecto form
+          <br>
+          onselect Ejecuta la acción cuando un usuario selecciona texto en un campo de texto input, textarea
+          <br>
+          onsubmit Ejecuta la acción cuando el formulario es enviado form
+          <br>
+          <br>
+          <hr>
+          <strong>ATRIBUTOS DE FOCO</strong>
+          <br>
+          <br>
+          Se le denomina foco o focus, cuando un control o elemento del documento ha sido seleccionado. Cuando ese
+          elemento deja
+          de estar seleccionado, "pierde el foco" y es el nuevo elemento seleccionado el que se dice que tiene "el
+          foco".
+          <br>
+          accesskey="letra" Establece una tecla de acceso rápido a un elemento HTML
+          <br>
+          tabindex="numero" Establece la posición del elemento en el orden de tabulación de la página (valor entre 0 y
+          32.767)
+          onfocus, onblur Controlan los eventos JavaScript que se ejecutan cuando el elemento obtiene o pierde el foco
+          <br>
+        </p>
+        <br>
+        <b>
+          <center>Mi Mockup</center>
+        </b>
+        <center><img src="mockup1.jpg" alt=""></center>
+        <br>
+    </section>
+    <aside>
+      <iframe
+        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2F.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+        width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+        allowfullscreen="true"
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    </aside>
+  </main>
+  <footer>
+    <HR>
+    </HR>
+    <p>
+      <center>correo: carlosasaavedrajaimes2028@gmail.com
+        <br>
+        skype: carlos andres saavedra jaimes
+        <br>
+        fecha actualizacion: Abril 9 2022
+      </center>
+      <br>
+    </p>
+  </footer>
+</body>
+
+</html>
